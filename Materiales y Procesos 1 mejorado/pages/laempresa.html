@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <title> Quilmes Plas </title>
+</head>
+
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active"> <img class="logo" src="../Imagens/Quilmes plas.png" alt="" width="2"></a>
+        <a href="./catalogo.html">Catalogo</a>
+        <a href="./contacto.html">Contacto</a>
+        <a href="./laempresa.html">La empresa </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 24V21H36V24H0ZM0 13.5V10.5H36V13.5H0ZM0 3V0H36V3H0Z" fill="black"/>
+                </svg>
+                
+        </a>
+    </div>
+
+    <main>
+        <div>
+            <h2>
+              Veni a conocernos! Contamos con mas de 30 años en el rubro.
+            </h2>
+        </div>
+        <div>
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/xFMdET7OIP4" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </div>
+        <div class="stock">
+            <h3> ¡Stock y calidad en todos nuestros productos! </h3>
+            <p> Disponemos de los mejores productos y accesorios para tu vehiculo. Trabajamos con las mejores marcas
+                del mercado. 
+            </p>
+            <div class="img-empresa">
+                <div class="img-empresa2"> 
+                    <img class="estero-img" src="../Imagens/estero.jpeg" alt="">
+                    <img class="estero-img" src="../Imagens/creeled.jpeg" alt="">
+                    <img  class="estero-img"src="../Imagens/asientos.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="box-footer2">
+            <img class="footer-img" src="../Imagens/Quilmes plas.png" alt="">
+            <h3 id="contactanos"> Contactanos </h3>
+            <a href="https://www.instagram.com/quilmesplascarservice/?hl=es-la" target="_blank" class="logo-insta"> <i class="fa-brands fa-instagram"></i>Instagram</a>
+            <a href="https://www.facebook.com/QuimesPlas" target="_blank" class="logo-facebook" > <i class="fa-brands fa-square-facebook"></i> Facebook </a>
+            <p class="telefon-cont"> <i class="fa-light fa-phone"></i> Telefono: 4253-6190 </p>
+            <p class="telefon-cont"> <i class="fa-regular fa-envelope"></i> eMail: quilmesplascarservice@hotmail.com</p>
+            <p> AV. 12 de Octubre 1086 </p>
+        </div>
+      
+      
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <title> Quilmes Plas </title>
+</head>
+
+<body>
+    
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active"> <img class="logo" src="../Imagens/Quilmes plas.png" alt="" width="2"></a>
+        <a href="./catalogo.html">Catalogo</a>
+        <a href="./contacto.html">Contacto</a>
+        <a href="./laempresa.html">La empresa </a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <svg width="36" height="24" viewBox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 24V21H36V24H0ZM0 13.5V10.5H36V13.5H0ZM0 3V0H36V3H0Z" fill="black"/>
+                </svg>
+                
+        </a>
+    </div>
+
+    <section class="contenedor">
+        <div class="tarjetas"> 
+            <p class="title" >  Accesorios 4x4 </p>
+             <div class="acc-catalogo">
+                <img class="acc-cat" src="../Imagens/bumpers.1.jpeg" alt="">
+            </div>  
+            <a class="contact-button" href="./contacto.html"> Contactar </a> 
+        </div>
+        <div class="tarjetas"> 
+            <p class="title" > Lubricentro </p>
+            <div class="acc-catalogo">
+                <img  class="acc-cat" src="../Imagens/aceite.2.jpg" alt="">
+            </div>
+            <a class="contact-button" href="./contacto.html"> Contactar  </a> 
+        </div>
+        <div class="tarjetas"> 
+            <p class="title" > Polarizados </p>
+            <div  class="acc-catalogo">
+                <img class="acc-cat" src="../Imagens/tinted.1.jpeg" alt="">
+
+            </div>    
+            <a class="contact-button" href="./contacto.html"> Contactar </a> 
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="box-footer2">
+            <img class="footer-img" src="../Imagens/Quilmes plas.png" alt="">
+            <h3 id="contactanos"> Contactanos </h3>
+            <a href="https://www.instagram.com/quilmesplascarservice/?hl=es-la" target="_blank" class="logo-insta"> <i class="fa-brands fa-instagram"></i>Instagram</a>
+            <a href="https://www.facebook.com/QuimesPlas" target="_blank" class="logo-facebook" > <i class="fa-brands fa-square-facebook"></i> Facebook </a>
+            <p class="telefon-cont"> <i class="fa-light fa-phone"></i> Telefono: 4253-6190 </p>
+            <p class="telefon-cont"> <i class="fa-regular fa-envelope"></i> eMail: quilmesplascarservice@hotmail.com</p>
+            <p> AV. 12 de Octubre 1086 </p>
+        </div>
+      
+      
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+    
+</body>
+</html>
